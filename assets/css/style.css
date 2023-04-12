@@ -1,13 +1,4 @@
-/**
-* Template Name: TheEvent - v4.10.0
-* Template URL: https://bootstrapmade.com/theevent-conference-event-bootstrap-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
 
-/*--------------------------------------------------------------
-# General
---------------------------------------------------------------*/
 body {
   background: #fff;
   color: #2f3138;
@@ -15,7 +6,7 @@ body {
 }
 
 a {
-  color: #f82249;
+  color: #0fde77;
   text-decoration: none;
   transition: 0.5s;
 }
@@ -150,7 +141,7 @@ h6 {
 
 #header.header-scrolled,
 #header.header-inner {
-  background: rgba(6, 12, 34, 0.98);
+  background: rgba(0, 0, 0, 0.98);
   height: 70px;
 }
 
@@ -164,7 +155,9 @@ h6 {
 }
 
 #header #logo h1 span {
-  color: #f82249;
+  color: #f4841c
+
+  ;
 }
 
 #header #logo h1 a,
@@ -189,11 +182,11 @@ h6 {
 --------------------------------------------------------------*/
 .buy-tickets {
   color: #fff;
-  background: #f82249;
+  background: #f4841c;
   padding: 7px 22px;
   margin: 0 0 0 15px;
   border-radius: 50px;
-  border: 2px solid #f82249;
+  border: 2px solid #f4841c;
   transition: all ease-in-out 0.3s;
   font-weight: 500;
   line-height: 1;
@@ -272,7 +265,9 @@ h6 {
   height: 2px;
   bottom: -6px;
   left: 0;
-  background-color: #f82249;
+  background-color: #f4841c
+
+  ;
   visibility: hidden;
   transition: all 0.3s ease-in-out 0s;
 }
@@ -464,7 +459,7 @@ h6 {
 .navbar-mobile .dropdown ul a:hover,
 .navbar-mobile .dropdown ul .active:hover,
 .navbar-mobile .dropdown ul li:hover>a {
-  color: #f82249;
+  color: #7d1e30;
 }
 
 .navbar-mobile .dropdown>.dropdown-active {
@@ -477,7 +472,7 @@ h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url(../img/hero-bg.jpg) top center;
+  background: url(../img/tratotekkrobo.jpg) top center;
   background-size: cover;
   overflow: hidden;
   position: relative;
@@ -491,7 +486,7 @@ h6 {
 
 #hero:before {
   content: "";
-  background: rgba(6, 12, 34, 0.8);
+  background: rgba(0, 0, 0, 0.8);
   position: absolute;
   bottom: 0;
   top: 0;
@@ -528,7 +523,9 @@ h6 {
 }
 
 #hero h1 span {
-  color: #f82249;
+  color: #f4841c
+
+  ;
 }
 
 @media (max-width: 991px) {
@@ -1009,63 +1006,6 @@ h6 {
   transform: scale(1.1);
 }
 
-/*--------------------------------------------------------------
-# Hotels Section
---------------------------------------------------------------*/
-#hotels {
-  padding: 60px 0;
-}
-
-#hotels .hotel {
-  border: 1px solid #e0e5fa;
-  background: #fff;
-  margin-bottom: 30px;
-}
-
-#hotels .hotel:hover .hotel-img img {
-  transform: scale(1.1);
-}
-
-#hotels .hotel-img {
-  overflow: hidden;
-  margin-bottom: 15px;
-}
-
-#hotels .hotel-img img {
-  transition: 0.3s ease-in-out;
-}
-
-#hotels h3 {
-  font-weight: 600;
-  font-size: 20px;
-  margin-bottom: 5px;
-  padding: 0 20px;
-}
-
-#hotels a {
-  color: #152b79;
-}
-
-#hotels a:hover {
-  color: #f82249;
-}
-
-#hotels .stars {
-  padding: 0 20px;
-  margin-bottom: 5px;
-}
-
-#hotels .stars i {
-  color: rgb(255, 195, 29);
-}
-
-#hotels p {
-  padding: 0 20px;
-  margin-bottom: 20px;
-  color: #060c22;
-  font-style: italic;
-  font-size: 15px;
-}
 
 /*--------------------------------------------------------------
 # Gallery Section
@@ -1327,13 +1267,17 @@ h6 {
   border-radius: 50px;
   padding: 10px 40px;
   transition: all 0.2s;
-  background-color: #f82249;
+  background-color: #f4841c
+
+  ;
   border: 0;
   color: #fff;
 }
 
 #buy-tickets .card .btn:hover {
-  background-color: #e0072f;
+  background-color: #f4841c
+
+  ;
 }
 
 #buy-tickets #buy-ticket-modal input,
@@ -1346,13 +1290,17 @@ h6 {
   border-radius: 50px;
   padding: 10px 40px;
   transition: all 0.2s;
-  background-color: #f82249;
+  background-color: #f4841c
+
+  ;
   border: 0;
   color: #fff;
 }
 
 #buy-tickets #buy-ticket-modal .btn:hover {
-  background-color: #e0072f;
+  background-color: #f4841c
+
+  ;
 }
 
 /*--------------------------------------------------------------
